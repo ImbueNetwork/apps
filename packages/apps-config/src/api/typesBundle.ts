@@ -54569,7 +54569,6 @@ export const typesBundle = {
             "section": "proposals"
           }
         }
-
       }
     },
     "integritee-parachain": {
