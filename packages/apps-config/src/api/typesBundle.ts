@@ -53582,6 +53582,16 @@ export const typesBundle = {
     "imbue": {
       "rpc": {
         "proposals": {
+          "getAllProjectData": {
+            "description": "Get aggregated project data",
+            "params": [
+              {
+                "name": "project_id",
+                "type": "u32"
+              }
+            ],
+            "type": "Option<(Vec<u8>, Vec<u8>)>"
+          },
           "getProjectKitty": {
             "description": "Get the escrow address associated with a project",
             "params": [
